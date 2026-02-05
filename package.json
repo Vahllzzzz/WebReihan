@@ -1,0 +1,27 @@
+{
+  "name": "webreihan",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare"
+  },
+  "dependencies": {
+    "nuxt": "^4.3.0",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@vueuse/core": "^14.2.0",
+    "@vueuse/motion": "^3.0.3",
+    "@vueuse/nuxt": "^14.2.0",
+    "lucide-vue-next": "^0.563.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
